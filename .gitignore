@@ -1,0 +1,17 @@
+# ignore ALL .log files
+*.log
+# ignore ALL auto-produced files
+model/
+data/
+code/*.sh
+**/__pycache__/
+**/**/__pycache__/
+**.pth
+**.out
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+*.ipynb
+code/**.sbatch
+hpc_sbatch/**.sbatch
+*.sbatch
+**/**.sh
